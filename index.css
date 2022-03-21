@@ -25,4 +25,5 @@ h1{
     font-size: xx-large;
     font-style: oblique;
     font-weight: bolder;
+    cursor:pointer;
 }
