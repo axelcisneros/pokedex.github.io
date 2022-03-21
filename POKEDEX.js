@@ -16,7 +16,10 @@ const fetchPokemon = () => {
         }
     }).then((data) => {
         if (data) {
-            console.log(data);            
+            console.log(data);
+            let poken = pokeName;
+            pokena(poken);
+            console.log(poken);            
             let pokeImg = data.sprites.front_default;
             pokeImage(pokeImg);
             console.log(pokeImg);
@@ -54,4 +57,8 @@ const tipo = (url) => {
 const tipo2 = (url) => {
     const poketyp2 = document.getElementById("typ2");
     poketyp2.value = url;
+}
+const pokena = (poken) => {
+    const pokenme = document.getElementById("nme");
+    pokenme.value = poken;
 }
