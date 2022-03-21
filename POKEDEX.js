@@ -8,8 +8,9 @@ const fetchPokemon = () => {
             console.log(res);
             pokeImage("./img/sad.png")
             pokeImage2("./img/sad.gif")
-            tipo("N")
-            tipo2("N")
+            tipo("undefined")
+            tipo2("undefined")
+            pokena("undefined")
         }
         else {
             return res.json();
