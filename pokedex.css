@@ -117,3 +117,12 @@ th, td {
     text-align: center;
     color: whitesmoke;
 }
+input.bus , button {    
+    cursor:pointer;
+}
+input{
+    cursor: default;
+}
+.bus{
+    background-attachment: fixed;
+}
