@@ -13,10 +13,11 @@ header{
     font-weight: bold;
 }
 body{
+    color: #3cd2f8;
     margin: 0%;
     text-align: center;
     background-image: url(./img/pokeball.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     display: block;
 }
@@ -41,11 +42,68 @@ section{
     left: 50%;
     transform: translate(-180%, -20%);
 }
-.stats{
-    width: 250px;
+.shiny{
+    width: 100px;
     height: 70px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(0%, -44%);
+    transform: translate(70%, -44%);
+}
+.bot{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border-color: rgb(100, 159, 207);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-1102%, 505%);
+    background-color: transparent;   
+}
+table {
+    background-color: transparent;
+    width: 100%;
+    border: 2px solid #ee0b0b;
+}
+th, td {
+    font-weight: bolder;
+    width: 10%;
+    text-align: center;                
+    border: 8px solid #ee0b0b;
+    color: #ee0b0b;                
+}
+.typ {
+    width: 70px;
+    height: 27px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(60%, 398%);
+    background-color: grey;
+    text-align: center;
+    color: whitesmoke;
+}
+.typ2 {
+    width: 70px;
+    height: 27px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(170%, 398%);
+    background-color: grey;
+    text-align: center;
+    color: whitesmoke;
+}
+.botTab{
+    width: 20px;
+    height: 20px;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-color: rgb(100, 159, 207);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-320%, 657%);
+    background-color: transparent;
 }
