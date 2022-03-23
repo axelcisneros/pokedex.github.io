@@ -63,3 +63,33 @@ const pokena = (poken) => {
     const pokenme = document.getElementById("nme");
     pokenme.value = poken;
 }
+
+const fetchtab = () => {
+    const pokeNameInput = document.getElementById("pokeName");
+    let pokeName = pokeNameInput.value;
+    pokeName = pokeName.toLowerCase();
+    const url = `https://pokeapi.co/api/v2/pokemon/${pokeName}`;
+    fetch(url).then((res) => {
+        if (res.status != "200") {
+            console.log(res);
+            pokeImage("./img/sad.png")
+            pokeImage2("./img/sad.gif")
+            tipo("undefined")
+            tipo2("undefined")
+            pokena("undefined")
+        }
+        else {
+            return res.json();
+        }
+    }).then((data) => {
+        if (data) {
+            console.log(data.stats);
+            for (let nombre = 0; nombre < data.stats.length; nombre++) {
+                const element = data.stats[nombre];
+                console.log(element.stat.name);
+                console.log(element.base_stat);
+                
+            }
+        }
+    });
+}
