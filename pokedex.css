@@ -60,18 +60,6 @@ section{
     transform: translate(-1102%, 505%);
     background-color: transparent;   
 }
-table {
-    background-color: transparent;
-    width: 100%;
-    border: 2px solid #ee0b0b;
-}
-th, td {
-    font-weight: bolder;
-    width: 10%;
-    text-align: center;                
-    border: 8px solid #ee0b0b;
-    color: #ee0b0b;                
-}
 .typ {
     width: 70px;
     height: 27px;
@@ -115,3 +103,14 @@ input{
 .bus{
     background-attachment: fixed;
 }
+/*div{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-330%, -50%);
+    background-color: rgb(77, 185, 95);
+    text-align: center;
+    color: black;
+}*/
