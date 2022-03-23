@@ -64,7 +64,7 @@ const pokena = (poken) => {
     pokenme.value = poken;
 }
 
-const fetchtab = () => {
+/*const fetchtab = () => {
     const pokeNameInput = document.getElementById("pokeName");
     let pokeName = pokeNameInput.value;
     pokeName = pokeName.toLowerCase();
@@ -84,12 +84,6 @@ const fetchtab = () => {
     }).then((data) => {
         if (data) {
             console.log(data.stats);
-            for (let nombre = 0; nombre < data.stats.length; nombre++) {
-                const element = data.stats[nombre];
-                console.log(element.stat.name);
-                console.log(element.base_stat);
-                
-            }
         }
     });
-}
+}*/
